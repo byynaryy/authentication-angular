@@ -8,7 +8,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class AppComponent {
   title = 'authentication-angular';
-  greeting: {} = {'id': 'XXX', 'content': 'Hello World'} ;
+  greeting: any = {'id': 'XXX', 'content': 'Hello World'} ;
 
   constructor(private http: HttpClient) {
     http.get('resource').subscribe(data => this.greeting = data);
