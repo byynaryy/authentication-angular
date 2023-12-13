@@ -9,7 +9,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class AppComponent {
 
-    constructor(private http: HttpClient) {
+  constructor(private http: HttpClient) {
    
     // Gets a plain text from the application EnableCorsClassMethodLevelSpringMvc
     //http.get('http://localhost:8080/api/v1/cors/method/level',  { responseType: 'text' }).subscribe(data => console.log(data));
