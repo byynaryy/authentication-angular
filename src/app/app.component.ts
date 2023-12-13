@@ -24,7 +24,7 @@ export class AppComponent {
     //http.get('http://localhost:8080/resource').subscribe(data => this.greeting = data);
     
     // Gets user or null ( If Spring Security is not set or the user is not authenticated) from the the application AuthenticationSpringBoot
-    http.get('http://localhost:8080/user').subscribe({next: (data) => console.log(data)});
+    //http.get('http://localhost:8080/user').subscribe({next: (data) => console.log(data)});
   }
 
 }
