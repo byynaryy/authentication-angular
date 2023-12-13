@@ -8,12 +8,8 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'authentication-angular';
-  greeting: any = {};
-  id: number = 0;
-  str: any = "";
 
-  constructor(private http: HttpClient) {
+    constructor(private http: HttpClient) {
    
     // Gets a plain text from the application EnableCorsClassMethodLevelSpringMvc
     //http.get('http://localhost:8080/api/v1/cors/method/level',  { responseType: 'text' }).subscribe(data => console.log(data));
