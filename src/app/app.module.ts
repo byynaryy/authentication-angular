@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { AccueilComponent } from './accueil/accueil.component';
 import { MesPaiementsComponent } from './mes-paiements/mes-paiements.component';
 import { MesInformationtsComponent } from './mes-informationts/mes-informationts.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AccueilComponent,
     MesPaiementsComponent,
-    MesInformationtsComponent
+    MesInformationtsComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
